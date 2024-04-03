@@ -23,9 +23,11 @@ import DynamicParent from '@/components/04_dynamicslot/DynamicParent.vue';
     <MyComponent />
   </header>
 
-  <SlotParent />
-  <NamedParent />
-  <DynamicParent />
+  <main>
+    <SlotParent />
+    <NamedParent />
+    <DynamicParent />
+  </main>
 </template>
 
 <!-- 현재 컴포넌트에서만 적용되는 스타일을 작성한다.(범위 CSS(scope 적용)) -->
